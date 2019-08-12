@@ -24,7 +24,7 @@
                 <span class="r"></span>
             </div>
             <div class="card">
-                
+                 // get the data from the form if exits give alert to the users.
                 <?php if(isset($_GET['token-msg'])) { ?>
                 <div class="alert alert-warning alert-dismissible fade show" role="alert">
                   <strong><?php echo base64_decode($_GET['token-msg']); ?></strong>
