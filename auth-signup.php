@@ -34,8 +34,8 @@
                 <span class="r s"></span>
                 <span class="r"></span>
             </div>
-            <div class="card">
-                
+              <div class="card">
+		      //alert message to user
                 <?php if(isset($_GET['token-msg'])) { ?>
                 <div class="alert alert-warning alert-dismissible fade show" role="alert">
                   <strong><?php echo base64_decode($_GET['token-msg']); ?></strong>
@@ -68,7 +68,7 @@
         </div>
     </div>
 
-    <!-- Required Js -->
+   // javascript
 <script src="assets/js/vendor-all.min.js"></script>
 	<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 
